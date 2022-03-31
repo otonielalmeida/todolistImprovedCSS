@@ -1,0 +1,258 @@
+body{
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.container{
+    width: 50%;
+}
+.result{
+    width: 60%;
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    margin-top: 50%;
+    align-self: center;
+    transition: all .5s ease;
+}
+.result:hover{
+    animation-duration: .5s;
+    transform: scale(1.005);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.tasks{
+    width: 85%;
+    text-indent: 5px;
+    position: fixed;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    align-content: center;
+}
+.tasks button{
+    text-align: center;
+    text-justify: center;
+    margin-left: 10px;
+    transition: all .5s ease;
+    background-color: white;
+    opacity: 0.5;
+    outline: none;
+    border-radius: 4.5px;
+    outline-style: none;
+    height: 40px;
+}
+.tasks button:hover{
+    background-color: white;
+    animation-duration: .5s;
+    opacity: 1;
+    transform: scale(1.019);
+    
+}
+li{
+    width: 68%;
+    margin-left: 0%;
+    overflow-wrap: break-word;
+}
+
+@media only screen and (min-width: 430px) and (max-width: 500px) {
+    .result{
+        width: 70%;
+        height: 60%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 215%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 550px) {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 182%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 550px) and (max-width: 599px) {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 163%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 630px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 165%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 630px) and (max-width: 690px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 150%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 690px) and (max-width: 780px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 132%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 780px) and (max-width: 850px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 118%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 850px) and (max-width: 950px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 108%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 950px) and (max-width: 1050px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 95%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 1050px) and (max-width: 1200px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 85%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1350px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 75%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 1350px) and (max-width: 1450px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 68%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 1450px) and (max-width: 1600px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 63%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
+@media only screen and (min-width: 1600px) and (max-width: 1700px)  {
+    .result{
+        width: 70%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.1);
+        position: fixed;
+        margin-top: 56%;
+        align-self: center;
+    }
+    li{
+        text-overflow: ellipsis;
+        overflow-wrap: break-word;
+    }
+}
